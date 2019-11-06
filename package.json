@@ -1,0 +1,9 @@
+{
+  "name": "Co0l_App",    "version": "1.0.0", 
+  "description": "first project",    "main": "index.js", 
+  "scripts": { 
+    "test": "eslint .",
+    "start": "node index.js" 
+  },
+  "author": "Co0l XackEr", "license": "MIT"
+}
