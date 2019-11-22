@@ -1,23 +1,7 @@
-{
-  "deploy": {
-    "provider": false
-  },
-  "script": [
-    "npm run start"
-  ],
-  "node_js": [
-    "12.12.0"
-  ],
-  "branches": {
-    "only": [
-      "master"
-    ]
-  },
-  "language": "node_js",
-  "notifications": {
-    "email": false
-  },
-  "before_install": [
-    "npm i -g firebase-tools"
-  ]
-}
+language: node_js
+node_js:
+ - node
+script:
+ - npm test
+notifications:
+ email: false
