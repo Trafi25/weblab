@@ -1,11 +1,12 @@
 {
-  "name": "lab4",
+  "name": "weblab",
   "version": "1.0.0",
   "description": "first project",
   "main": "index.js",
   "scripts": {
-    "test": "eslint .",
-    "start": "node index.js"
+    "test": "",
+    "start": "node index.js",
+    "deploy": "npx firebase deploy"
   },
   "author": "Co0l XackEr",
   "license": "MIT",
