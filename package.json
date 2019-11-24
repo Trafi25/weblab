@@ -6,7 +6,7 @@
   "scripts": {
     "test": "",
     "start": "node index.js",
-    "deploy": "npx firebase deploy"
+    "deploy": "npx heroku deploy"
   },
   "author": "Co0l XackEr",
   "license": "MIT",

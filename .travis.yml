@@ -1,6 +1,6 @@
 {
   "deploy": {
-    "provider": "firebase"
+    "provider": "heroku"
   },
   "script": [
     "npm test"
@@ -16,8 +16,5 @@
   "language": "node_js",
   "notifications": {
     "email": false
-  },
-  "before_install": [
-    "npm i -g firebase-tools"
-  ]
+  }  
 }
